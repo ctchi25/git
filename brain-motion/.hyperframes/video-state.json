@@ -1,0 +1,670 @@
+{
+  "version": 1,
+  "historyId": "b6f98741-28d9-40a1-b410-637586005a12",
+  "currentRevision": "478cae0e-2e83-45a7-9db4-adfdb1eca96d",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "C:\\Users\\user\\.cache\\hyperframes\\history\\b6f98741-28d9-40a1-b410-637586005a12\\blobs\\1d\\1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "CLAUDE.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "C:\\Users\\user\\.cache\\hyperframes\\history\\b6f98741-28d9-40a1-b410-637586005a12\\blobs\\1d\\1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "hyperframes.json": {
+      "hash": "e5da816b77f863aa4798d974bc68d65805329ca4d39ebcf353967c5b47e677a6",
+      "content": "C:\\Users\\user\\.cache\\hyperframes\\history\\b6f98741-28d9-40a1-b410-637586005a12\\blobs\\e5\\e5da816b77f863aa4798d974bc68d65805329ca4d39ebcf353967c5b47e677a6"
+    },
+    "index.html": {
+      "hash": "8e775acdb2b1b584fb21f147598e98f2379f8f8116f9b35b69587dcc397d8b25",
+      "content": "C:\\Users\\user\\.cache\\hyperframes\\history\\b6f98741-28d9-40a1-b410-637586005a12\\blobs\\8e\\8e775acdb2b1b584fb21f147598e98f2379f8f8116f9b35b69587dcc397d8b25"
+    },
+    "index.motion.json": {
+      "hash": "40bb462a6850df6a9b3ab44cab1b1ba63b2315a3cce171e0ccbaf2c9c8fa60b9",
+      "content": "C:\\Users\\user\\.cache\\hyperframes\\history\\b6f98741-28d9-40a1-b410-637586005a12\\blobs\\40\\40bb462a6850df6a9b3ab44cab1b1ba63b2315a3cce171e0ccbaf2c9c8fa60b9"
+    },
+    "meta.json": {
+      "hash": "105cdcb3bdf709b257fee26d65493754b2066e185a6c1868578e43b883cb37a9",
+      "content": "C:\\Users\\user\\.cache\\hyperframes\\history\\b6f98741-28d9-40a1-b410-637586005a12\\blobs\\10\\105cdcb3bdf709b257fee26d65493754b2066e185a6c1868578e43b883cb37a9"
+    },
+    "package.json": {
+      "hash": "ac24a0da16b74ee152b02bef98f25826c820f8be885f18522b02ce333dc1b297",
+      "content": "C:\\Users\\user\\.cache\\hyperframes\\history\\b6f98741-28d9-40a1-b410-637586005a12\\blobs\\ac\\ac24a0da16b74ee152b02bef98f25826c820f8be885f18522b02ce333dc1b297"
+    }
+  },
+  "revisions": {
+    "dc91359a-4173-4cd9-b7b8-a91594944623": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792050737948,
+      "endedAt": 1792050737949,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\user\\.cache\\hyperframes\\history\\b6f98741-28d9-40a1-b410-637586005a12\\blobs\\df\\dfa4d45cbb2b201d08879c6b31934c426bc038eac1a5f26b9bc966ab78dddbb3",
+          "after": "C:\\Users\\user\\.cache\\hyperframes\\history\\b6f98741-28d9-40a1-b410-637586005a12\\blobs\\66\\66be939987598976c89f5208ed01083c0795685392b09d1772f542f3dca90720"
+        }
+      }
+    },
+    "6317fd7a-395c-4fa3-bdf9-a126fbe694a9": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792050787356,
+      "endedAt": 1792050787358,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\user\\.cache\\hyperframes\\history\\b6f98741-28d9-40a1-b410-637586005a12\\blobs\\66\\66be939987598976c89f5208ed01083c0795685392b09d1772f542f3dca90720",
+          "after": "C:\\Users\\user\\.cache\\hyperframes\\history\\b6f98741-28d9-40a1-b410-637586005a12\\blobs\\c2\\c21002c9204cf69fbf8d5e81b3bdffb9428b2e23ccf72b2b394bef293e1d4b05"
+        }
+      }
+    },
+    "478cae0e-2e83-45a7-9db4-adfdb1eca96d": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792050828415,
+      "endedAt": 1792050828416,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\user\\.cache\\hyperframes\\history\\b6f98741-28d9-40a1-b410-637586005a12\\blobs\\c2\\c21002c9204cf69fbf8d5e81b3bdffb9428b2e23ccf72b2b394bef293e1d4b05",
+          "after": "C:\\Users\\user\\.cache\\hyperframes\\history\\b6f98741-28d9-40a1-b410-637586005a12\\blobs\\8e\\8e775acdb2b1b584fb21f147598e98f2379f8f8116f9b35b69587dcc397d8b25"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "10c9cb44-ad83-4bee-8b6f-36a259f57ed2"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288",
+        "scope": "project",
+        "report": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\checks\\4c7ea922-5ab8-4a9e-8e71-6db2e852e288.json",
+        "metadata": {
+          "ok": false,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": true,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792050721131,
+        "contentHash": "e873c37da69d2190a82ffd4268f28a77c0dba84066accd76b4e81399510e269e",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "ebaa7e97-bd94-45e4-9814-432cb1b9c638",
+        "scope": "project",
+        "report": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\checks\\ebaa7e97-bd94-45e4-9814-432cb1b9c638.json",
+        "metadata": {
+          "ok": false,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": true,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792050746442,
+        "contentHash": "eee4905cef0216b88c273fbb8fca236c108ab5adbe0f28832b01f2b2fd861005",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "75a72af6-8cc6-4338-aee2-47cb3638ee8a",
+        "scope": "project",
+        "report": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\checks\\75a72af6-8cc6-4338-aee2-47cb3638ee8a.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": true,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792050784400,
+        "contentHash": "a4f73b49e741743ac63804708610cc18c102d871b322f4309fc16703783c6bbd",
+        "revision": null,
+        "inputFingerprint": "a84ca6ed06c1058666db334b2a3002fbac2622b16e323b87add2b999997d63ab",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "10c9cb44-ad83-4bee-8b6f-36a259f57ed2",
+        "scope": "project",
+        "report": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\checks\\10c9cb44-ad83-4bee-8b6f-36a259f57ed2.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 60000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": true,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792050834107,
+        "contentHash": "a723d2e3a0890b0086d3a717e25255bb0c39071c2486822e034a36476c732299",
+        "revision": null,
+        "inputFingerprint": "891bdcf9dadc6635dc535de53856ddbd9a390f0f3e0d7a2159ed724ef99fa527",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "10c9cb44-ad83-4bee-8b6f-36a259f57ed2-4"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288-0",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\frame-00-at-0.6s.png",
+        "time": 0.556,
+        "metadata": {
+          "checkId": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050721131,
+        "contentHash": "dc315c087d7733492b4b9381b9a38155ad663c72da701a69ac42cfb3106933d9",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288-1",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\frame-01-at-2.8s.png",
+        "time": 2.778,
+        "metadata": {
+          "checkId": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050721131,
+        "contentHash": "a5f2ebb9afacf6522db599e6deaf1fece95ec05d00a2ea494824b0446ac79413",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288-2",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\frame-02-at-5.0s.png",
+        "time": 5,
+        "metadata": {
+          "checkId": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050721131,
+        "contentHash": "6093f5fd5e5c452295bdf72c762e4e238561268a0148808c01439924e6d436ab",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288-3",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\frame-03-at-7.2s.png",
+        "time": 7.222,
+        "metadata": {
+          "checkId": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050721132,
+        "contentHash": "b7ad7290151ca035b2a1c452009537655246a577368480472e61f0f1fabaee11",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288-4",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\frame-04-at-9.4s.png",
+        "time": 9.444,
+        "metadata": {
+          "checkId": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050721132,
+        "contentHash": "a8e2f5e149fbd595d9ea0e92b0fca256bbd756508aa484a5f44a18c928764261",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288-crop-0",
+        "scope": "finding",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\finding-00-contrast_aa_failure.png",
+        "time": 2.778,
+        "metadata": {
+          "checkId": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288",
+          "finding": {
+            "filename": "finding-00-contrast_aa_failure.png",
+            "time": 2.778,
+            "bbox": {
+              "x": 84,
+              "y": 992,
+              "width": 222.28125,
+              "height": 16
+            }
+          },
+          "width": 810,
+          "height": 192
+        },
+        "createdAt": 1792050721132,
+        "contentHash": "330beb82f9adbf9038e33fe45cbeece6980a25ebe7421b9701a79bf5f89ff297",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288-crop-1",
+        "scope": "finding",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\finding-01-contrast_aa_failure.png",
+        "time": 7.222,
+        "metadata": {
+          "checkId": "4c7ea922-5ab8-4a9e-8e71-6db2e852e288",
+          "finding": {
+            "filename": "finding-01-contrast_aa_failure.png",
+            "time": 7.222,
+            "bbox": {
+              "x": 1665.1875,
+              "y": 992,
+              "width": 170.8125,
+              "height": 16
+            }
+          },
+          "width": 657,
+          "height": 192
+        },
+        "createdAt": 1792050721132,
+        "contentHash": "6111ae4ac092f4b02007af0f136e0ce71e430f8b3392f0f91fb27022d021fd8f",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "ebaa7e97-bd94-45e4-9814-432cb1b9c638-0",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\082714be-88cb-45af-b47e-b6a9c3ff553f\\frame-00-at-0.6s.png",
+        "time": 0.556,
+        "metadata": {
+          "checkId": "ebaa7e97-bd94-45e4-9814-432cb1b9c638",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050746443,
+        "contentHash": "dc315c087d7733492b4b9381b9a38155ad663c72da701a69ac42cfb3106933d9",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "ebaa7e97-bd94-45e4-9814-432cb1b9c638-1",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\082714be-88cb-45af-b47e-b6a9c3ff553f\\frame-01-at-2.8s.png",
+        "time": 2.778,
+        "metadata": {
+          "checkId": "ebaa7e97-bd94-45e4-9814-432cb1b9c638",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050746444,
+        "contentHash": "a5f2ebb9afacf6522db599e6deaf1fece95ec05d00a2ea494824b0446ac79413",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "ebaa7e97-bd94-45e4-9814-432cb1b9c638-2",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\082714be-88cb-45af-b47e-b6a9c3ff553f\\frame-02-at-5.0s.png",
+        "time": 5,
+        "metadata": {
+          "checkId": "ebaa7e97-bd94-45e4-9814-432cb1b9c638",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050746444,
+        "contentHash": "6093f5fd5e5c452295bdf72c762e4e238561268a0148808c01439924e6d436ab",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "ebaa7e97-bd94-45e4-9814-432cb1b9c638-3",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\082714be-88cb-45af-b47e-b6a9c3ff553f\\frame-03-at-7.2s.png",
+        "time": 7.222,
+        "metadata": {
+          "checkId": "ebaa7e97-bd94-45e4-9814-432cb1b9c638",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050746445,
+        "contentHash": "b7ad7290151ca035b2a1c452009537655246a577368480472e61f0f1fabaee11",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "ebaa7e97-bd94-45e4-9814-432cb1b9c638-4",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\082714be-88cb-45af-b47e-b6a9c3ff553f\\frame-04-at-9.4s.png",
+        "time": 9.444,
+        "metadata": {
+          "checkId": "ebaa7e97-bd94-45e4-9814-432cb1b9c638",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050746446,
+        "contentHash": "a8e2f5e149fbd595d9ea0e92b0fca256bbd756508aa484a5f44a18c928764261",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "ebaa7e97-bd94-45e4-9814-432cb1b9c638-crop-0",
+        "scope": "finding",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\082714be-88cb-45af-b47e-b6a9c3ff553f\\finding-00-contrast_aa_failure.png",
+        "time": 2.778,
+        "metadata": {
+          "checkId": "ebaa7e97-bd94-45e4-9814-432cb1b9c638",
+          "finding": {
+            "filename": "finding-00-contrast_aa_failure.png",
+            "time": 2.778,
+            "bbox": {
+              "x": 84,
+              "y": 992,
+              "width": 222.28125,
+              "height": 16
+            }
+          },
+          "width": 810,
+          "height": 192
+        },
+        "createdAt": 1792050746447,
+        "contentHash": "482560cef46ad4a168cbea855b20cf48113e7ab3432816a2ccc84d9da2cc157d",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "ebaa7e97-bd94-45e4-9814-432cb1b9c638-crop-1",
+        "scope": "finding",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\082714be-88cb-45af-b47e-b6a9c3ff553f\\finding-01-contrast_aa_failure.png",
+        "time": 7.222,
+        "metadata": {
+          "checkId": "ebaa7e97-bd94-45e4-9814-432cb1b9c638",
+          "finding": {
+            "filename": "finding-01-contrast_aa_failure.png",
+            "time": 7.222,
+            "bbox": {
+              "x": 1665.1875,
+              "y": 992,
+              "width": 170.8125,
+              "height": 16
+            }
+          },
+          "width": 657,
+          "height": 192
+        },
+        "createdAt": 1792050746447,
+        "contentHash": "e60a26a6939a952ef061c468a4e519990135af462437cce8149ebcba104a52cb",
+        "revision": null,
+        "inputFingerprint": "d4110a3e1254e39a9b0244b6bf7e1f8a5e49f33d15aee809f7e5251dc418c307",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "75a72af6-8cc6-4338-aee2-47cb3638ee8a-0",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\e0e9ba0b-d398-47bb-9bd4-ee245cf17efa\\frame-00-at-0.6s.png",
+        "time": 0.556,
+        "metadata": {
+          "checkId": "75a72af6-8cc6-4338-aee2-47cb3638ee8a",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050784400,
+        "contentHash": "dc315c087d7733492b4b9381b9a38155ad663c72da701a69ac42cfb3106933d9",
+        "revision": null,
+        "inputFingerprint": "a84ca6ed06c1058666db334b2a3002fbac2622b16e323b87add2b999997d63ab",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "75a72af6-8cc6-4338-aee2-47cb3638ee8a-1",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\e0e9ba0b-d398-47bb-9bd4-ee245cf17efa\\frame-01-at-2.8s.png",
+        "time": 2.778,
+        "metadata": {
+          "checkId": "75a72af6-8cc6-4338-aee2-47cb3638ee8a",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050784400,
+        "contentHash": "5d4cd06d46af4655825e7615dd4c0d4718d461c2ef14fce8933f43e610eabc26",
+        "revision": null,
+        "inputFingerprint": "a84ca6ed06c1058666db334b2a3002fbac2622b16e323b87add2b999997d63ab",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "75a72af6-8cc6-4338-aee2-47cb3638ee8a-2",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\e0e9ba0b-d398-47bb-9bd4-ee245cf17efa\\frame-02-at-5.0s.png",
+        "time": 5,
+        "metadata": {
+          "checkId": "75a72af6-8cc6-4338-aee2-47cb3638ee8a",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050784401,
+        "contentHash": "ec8fbf9772abdacc370bc6c9701de39d5187539a6c43e28c0cf662f293969ff4",
+        "revision": null,
+        "inputFingerprint": "a84ca6ed06c1058666db334b2a3002fbac2622b16e323b87add2b999997d63ab",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "75a72af6-8cc6-4338-aee2-47cb3638ee8a-3",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\e0e9ba0b-d398-47bb-9bd4-ee245cf17efa\\frame-03-at-7.2s.png",
+        "time": 7.222,
+        "metadata": {
+          "checkId": "75a72af6-8cc6-4338-aee2-47cb3638ee8a",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050784401,
+        "contentHash": "1efb24b1ec525d6004df98b35094c65c1178f7df55f2e88f4359bd56e00afbbf",
+        "revision": null,
+        "inputFingerprint": "a84ca6ed06c1058666db334b2a3002fbac2622b16e323b87add2b999997d63ab",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "75a72af6-8cc6-4338-aee2-47cb3638ee8a-4",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\e0e9ba0b-d398-47bb-9bd4-ee245cf17efa\\frame-04-at-9.4s.png",
+        "time": 9.444,
+        "metadata": {
+          "checkId": "75a72af6-8cc6-4338-aee2-47cb3638ee8a",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050784402,
+        "contentHash": "c769f34d8e7e552678b0a02a3f025aa8886501d4ad47e385d0b6e89c857ff004",
+        "revision": null,
+        "inputFingerprint": "a84ca6ed06c1058666db334b2a3002fbac2622b16e323b87add2b999997d63ab",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "10c9cb44-ad83-4bee-8b6f-36a259f57ed2-0",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\5fa0eed2-d0da-46c2-8c50-a67910bbc5d6\\frame-00-at-0.6s.png",
+        "time": 0.556,
+        "metadata": {
+          "checkId": "10c9cb44-ad83-4bee-8b6f-36a259f57ed2",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050834107,
+        "contentHash": "05df6ddb4cdddaa841f5beed338ac85e9931547eb51c281c8889e0cf66f2b764",
+        "revision": null,
+        "inputFingerprint": "891bdcf9dadc6635dc535de53856ddbd9a390f0f3e0d7a2159ed724ef99fa527",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "10c9cb44-ad83-4bee-8b6f-36a259f57ed2-1",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\5fa0eed2-d0da-46c2-8c50-a67910bbc5d6\\frame-01-at-2.8s.png",
+        "time": 2.778,
+        "metadata": {
+          "checkId": "10c9cb44-ad83-4bee-8b6f-36a259f57ed2",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050834108,
+        "contentHash": "80e4ed1f5db85f8a0b2a0bce14c308ee3e0ae71a4ac15e40b2a1e0d2a241f5d1",
+        "revision": null,
+        "inputFingerprint": "891bdcf9dadc6635dc535de53856ddbd9a390f0f3e0d7a2159ed724ef99fa527",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "10c9cb44-ad83-4bee-8b6f-36a259f57ed2-2",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\5fa0eed2-d0da-46c2-8c50-a67910bbc5d6\\frame-02-at-5.0s.png",
+        "time": 5,
+        "metadata": {
+          "checkId": "10c9cb44-ad83-4bee-8b6f-36a259f57ed2",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050834109,
+        "contentHash": "ff1907cdd32aa385ff96a4b6d99f46f1c5eacbc375cae2423434be8646e861b5",
+        "revision": null,
+        "inputFingerprint": "891bdcf9dadc6635dc535de53856ddbd9a390f0f3e0d7a2159ed724ef99fa527",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "10c9cb44-ad83-4bee-8b6f-36a259f57ed2-3",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\5fa0eed2-d0da-46c2-8c50-a67910bbc5d6\\frame-03-at-7.2s.png",
+        "time": 7.222,
+        "metadata": {
+          "checkId": "10c9cb44-ad83-4bee-8b6f-36a259f57ed2",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050834110,
+        "contentHash": "46ad1f76ac4af1b1ec65e90e9995d019d84886056c903138edd93ff5fcd27d2f",
+        "revision": null,
+        "inputFingerprint": "891bdcf9dadc6635dc535de53856ddbd9a390f0f3e0d7a2159ed724ef99fa527",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "10c9cb44-ad83-4bee-8b6f-36a259f57ed2-4",
+        "scope": "full",
+        "image": "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\5fa0eed2-d0da-46c2-8c50-a67910bbc5d6\\frame-04-at-9.4s.png",
+        "time": 9.444,
+        "metadata": {
+          "checkId": "10c9cb44-ad83-4bee-8b6f-36a259f57ed2",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792050834111,
+        "contentHash": "cb1a5abd95d64f522e18b22a9b906fab7bcdb6bdf4c794a3da5324c03c7aff58",
+        "revision": null,
+        "inputFingerprint": "891bdcf9dadc6635dc535de53856ddbd9a390f0f3e0d7a2159ed724ef99fa527",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      }
+    ]
+  },
+  "renders": {
+    "latest": {
+      "id": "0928aabd-f565-4103-a69c-df355354bffc",
+      "completedAt": 1792050929476,
+      "output": "C:\\Users\\user\\Desktop\\git\\brain-motion\\renders\\your-mind-in-motion.mp4",
+      "status": "completed",
+      "revision": "478cae0e-2e83-45a7-9db4-adfdb1eca96d"
+    },
+    "retainedRevisions": [
+      "478cae0e-2e83-45a7-9db4-adfdb1eca96d"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

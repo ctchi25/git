@@ -1,0 +1,194 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"brain-stage\"> is a timeline element that contains nested <svg id=\"brain-svg\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#brain-stage",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\user\\Desktop\\git\\brain-motion\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"brain-stage\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target .synapse not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "10",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js",
+        "line": 9
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 10,
+    "samples": [
+      0.556,
+      1.667,
+      2.778,
+      3.889,
+      5,
+      6.111,
+      7.222,
+      8.333,
+      9.444
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "specPath": "C:\\Users\\user\\Desktop\\git\\brain-motion\\index.motion.json",
+    "samples": 201
+  },
+  "contrast": {
+    "ok": false,
+    "errorCount": 2,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "error",
+        "message": "Contrast is 4.08:1; WCAG AA requires 4.5:1.",
+        "text": "NEURAL FIELD 01 — ACTIVE",
+        "fg": "rgb(87,120,140)",
+        "bg": "rgb(7,15,30)",
+        "ratio": 4.08,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(96,127,146)",
+        "large": false,
+        "selector": "#micro-a",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 84,
+          "y": 992,
+          "width": 222.28125,
+          "height": 16
+        },
+        "time": 2.778,
+        "times": [
+          2.778,
+          5,
+          7.222,
+          9.444
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "error",
+        "message": "Contrast is 4.08:1; WCAG AA requires 4.5:1.",
+        "text": "SYNC 100% · 3D MAP",
+        "fg": "rgb(87,120,140)",
+        "bg": "rgb(7,15,29)",
+        "ratio": 4.08,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(96,127,146)",
+        "large": false,
+        "selector": "#micro-b",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1665.1875,
+          "y": 992,
+          "width": 170.8125,
+          "height": 16
+        },
+        "time": 7.222,
+        "times": [
+          2.778,
+          5,
+          7.222,
+          9.444
+        ]
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      0.556,
+      2.778,
+      5,
+      7.222,
+      9.444
+    ],
+    "checked": 24,
+    "passed": 16
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": true,
+    "files": [
+      ".hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\frame-00-at-0.6s.png",
+      ".hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\frame-01-at-2.8s.png",
+      ".hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\frame-02-at-5.0s.png",
+      ".hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\frame-03-at-7.2s.png",
+      ".hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\frame-04-at-9.4s.png"
+    ],
+    "times": [
+      0.556,
+      2.778,
+      5,
+      7.222,
+      9.444
+    ],
+    "findingFiles": [
+      "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\finding-00-contrast_aa_failure.png",
+      "C:\\Users\\user\\Desktop\\git\\brain-motion\\.hyperframes\\artifacts\\snapshots\\05e776e2-530f-4d06-9b9d-21450f6d8bbb\\finding-01-contrast_aa_failure.png"
+    ]
+  }
+}

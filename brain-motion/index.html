@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN" data-resolution="landscape">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      :root { --ink: #07111f; --cyan: #61f4ff; --violet: #9d8cff; --pink: #ff7aca; }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: var(--ink); }
+      body { font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: radial-gradient(ellipse at 50% 48%, rgba(71,62,170,.23) 0%, rgba(11,21,45,.88) 46%, #050b17 100%); }
+      .grid { position: absolute; inset: -20%; opacity: .16; background-image: linear-gradient(rgba(104,224,255,.18) 1px, transparent 1px), linear-gradient(90deg, rgba(104,224,255,.18) 1px, transparent 1px); background-size: 70px 70px; transform-origin: center bottom; }
+      .halo { position: absolute; left: 50%; top: 50%; width: 700px; height: 700px; transform: translate(-50%,-50%); border-radius: 50%; border: 1px solid rgba(97,244,255,.22); box-shadow: 0 0 80px rgba(97,244,255,.13), inset 0 0 80px rgba(157,140,255,.11); }
+      .halo::after { content: ''; position: absolute; inset: 42px; border-radius: 50%; border: 1px solid rgba(255,122,202,.18); }
+      #brain-stage { position: absolute; left: 50%; top: 50%; width: 940px; height: 680px; transform: translate(-50%,-50%); transform-style: preserve-3d; }
+      #brain-svg { width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 24px 35px rgba(0,0,0,.35)); }
+      .brain-shell { fill: url(#brainFill); stroke: rgba(187,239,255,.9); stroke-width: 5; }
+      .brain-inner { fill: none; stroke: rgba(104,238,255,.34); stroke-width: 3; }
+      .fold { fill: none; stroke: rgba(242,209,255,.55); stroke-width: 5; stroke-linecap: round; }
+      .synapse-lines { fill: none; stroke: rgba(97,244,255,.46); stroke-width: 2; stroke-dasharray: 8 13; }
+      .node { fill: #d5fcff; stroke: #61f4ff; stroke-width: 3; }
+      .pulse { fill: #fff; filter: url(#glow); }
+      .orbit { fill: none; stroke: rgba(157,140,255,.42); stroke-width: 2; stroke-dasharray: 10 18; }
+      .label { position: absolute; color: rgba(206,246,255,.86); font-size: 22px; letter-spacing: .18em; text-transform: uppercase; }
+      #label-left { left: 62px; top: 280px; }
+      #label-right { right: 62px; top: 280px; text-align: right; }
+      .label::before { content: ''; display: inline-block; width: 8px; height: 8px; margin: 0 14px 3px 0; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 14px var(--cyan); }
+      #label-right::before { display: none; }
+      #label-right::after { content: ''; display: inline-block; width: 8px; height: 8px; margin: 0 0 3px 14px; border-radius: 50%; background: var(--pink); box-shadow: 0 0 14px var(--pink); }
+      #caption { position: absolute; left: 50%; bottom: 84px; transform: translateX(-50%); color: rgba(214,246,255,.72); font-size: 20px; letter-spacing: .42em; text-transform: uppercase; white-space: nowrap; }
+      #caption strong { color: #fff; font-weight: 500; }
+      .micro { position: absolute; color: #d5f6ff; font-size: 13px; letter-spacing: .15em; }
+      #micro-a { left: 84px; bottom: 72px; } #micro-b { right: 84px; bottom: 72px; }
+    </style>
+  </head>
+  <body>
+    <div data-hf-id="hf-199x" id="root" data-composition-id="main" data-start="0" data-duration="10" data-width="1920" data-height="1080">
+      <div data-hf-id="hf-80b5" class="grid" data-layout-ignore></div><div data-hf-id="hf-3uhr" class="halo" data-layout-ignore></div>
+      <div data-hf-id="hf-pr1v" id="brain-stage" class="clip" data-start="0" data-duration="10" data-track-index="1">
+        <svg data-hf-id="hf-hz6t" id="brain-svg" viewBox="0 0 940 680" role="img" aria-label="三维发光大脑图">
+          <defs data-hf-id="hf-mh0t">
+            <linearGradient data-hf-id="hf-wu4a" id="brainFill" x1="0" y1="0" x2="1" y2="1"><stop data-hf-id="hf-675d" offset="0" stop-color="#7d75ff" stop-opacity=".92"/><stop data-hf-id="hf-vqv5" offset=".48" stop-color="#45dff4" stop-opacity=".83"/><stop data-hf-id="hf-yc2d" offset="1" stop-color="#ed75c9" stop-opacity=".82"/></linearGradient>
+            <radialGradient data-hf-id="hf-k9f1" id="coreGlow"><stop data-hf-id="hf-65he" stop-color="#fff" stop-opacity=".9"/><stop data-hf-id="hf-e62b" offset="1" stop-color="#61f4ff" stop-opacity="0"/></radialGradient>
+            <filter data-hf-id="hf-49pv" id="glow"><feGaussianBlur data-hf-id="hf-m962" stdDeviation="7" result="blur"/><feMerge data-hf-id="hf-zn2o"><feMergeNode data-hf-id="hf-t7ws" in="blur"/><feMergeNode data-hf-id="hf-cmaw" in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <ellipse data-hf-id="hf-vowy" class="orbit" cx="470" cy="337" rx="380" ry="155" transform="rotate(-18 470 337)" /><ellipse data-hf-id="hf-0wfw" class="orbit" cx="470" cy="337" rx="390" ry="185" transform="rotate(26 470 337)" />
+          <path data-hf-id="hf-hhcp" class="brain-shell" d="M470 532 C375 567 250 548 206 480 C168 421 180 365 205 331 C180 272 217 210 277 205 C289 143 365 113 419 148 C466 108 548 127 565 176 C634 158 705 204 694 268 C763 289 779 367 729 414 C739 489 650 544 573 522 C537 558 500 553 470 532Z" />
+          <path data-hf-id="hf-g8hl" class="brain-inner" d="M451 164 C486 205 479 257 466 310 C451 371 473 452 491 525 M443 172 C391 210 395 276 415 318 C438 365 410 449 382 510 M501 171 C551 216 530 280 522 326 C509 389 540 464 579 510" />
+          <path data-hf-id="hf-yc46" class="fold" d="M254 263 C306 232 345 252 354 286 C362 317 321 324 286 310 C246 294 224 320 238 354 C250 385 293 370 319 391 C345 412 326 448 289 450 C255 451 231 430 225 405" /><path data-hf-id="hf-yvf4" class="fold" d="M351 191 C333 224 355 243 383 242 C419 240 426 213 409 181 M548 189 C578 212 576 246 548 258 C520 270 500 245 508 218" /><path data-hf-id="hf-y2ua" class="fold" d="M566 283 C613 246 665 266 674 301 C681 329 643 344 617 324 C591 305 563 324 575 355 C590 392 640 379 671 402 C703 425 686 463 650 471 C611 480 590 454 580 430" /><path data-hf-id="hf-1d5m" class="fold" d="M387 363 C356 337 325 349 327 379 C330 412 364 420 388 403 C414 385 434 402 426 432 C418 463 390 473 368 463" />
+          <g data-hf-id="hf-chdd" class="synapse-lines"><path data-hf-id="hf-cbtj" d="M267 297 L355 286 L416 319 L522 326 L617 324 L670 402"/><path data-hf-id="hf-3uag" d="M289 450 L382 510 L491 525 L579 510 L650 471"/><path data-hf-id="hf-hg36" d="M383 242 L415 318 L388 403 L382 510"/><path data-hf-id="hf-ml92" d="M548 258 L522 326 L579 430 L579 510"/></g>
+          <g data-hf-id="hf-eb9l" class="nodes"><circle data-hf-id="hf-oivq" class="node" cx="267" cy="297" r="8"/><circle data-hf-id="hf-q6if" class="node" cx="355" cy="286" r="9"/><circle data-hf-id="hf-oqjk" class="node" cx="416" cy="319" r="7"/><circle data-hf-id="hf-17ls" class="node" cx="522" cy="326" r="10"/><circle data-hf-id="hf-s2ae" class="node" cx="617" cy="324" r="8"/><circle data-hf-id="hf-qer5" class="node" cx="670" cy="402" r="7"/><circle data-hf-id="hf-zfo4" class="node" cx="289" cy="450" r="7"/><circle data-hf-id="hf-q8gs" class="node" cx="382" cy="510" r="8"/><circle data-hf-id="hf-0hvy" class="node" cx="491" cy="525" r="7"/><circle data-hf-id="hf-06sw" class="node" cx="579" cy="510" r="8"/><circle data-hf-id="hf-e659" class="node" cx="650" cy="471" r="7"/></g>
+          <g data-hf-id="hf-jgzx" id="pulses"><circle data-hf-id="hf-8uo4" class="pulse" cx="267" cy="297" r="12"/><circle data-hf-id="hf-2pnl" class="pulse" cx="522" cy="326" r="12"/><circle data-hf-id="hf-mfzz" class="pulse" cx="650" cy="471" r="11"/></g><circle data-hf-id="hf-4jw8" id="core" cx="470" cy="337" r="105" fill="url(#coreGlow)" opacity=".24" />
+        </svg>
+      </div>
+      <div data-hf-id="hf-4dzi" id="label-left" class="label">memory / focus</div><div data-hf-id="hf-tn1a" id="label-right" class="label">imagination / flow</div><div data-hf-id="hf-trdx" id="caption"><strong data-hf-id="hf-g99z">YOUR MIND</strong> · IN MOTION</div><div data-hf-id="hf-9f5w" id="micro-a" class="micro">NEURAL FIELD 01 — ACTIVE</div><div data-hf-id="hf-70ek" id="micro-b" class="micro">SYNC 100% · 3D MAP</div>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true, defaults: { ease: 'power2.inOut' } });
+      tl.fromTo('#brain-stage', { opacity: 0, scale: .82, rotationY: -8 }, { opacity: 1, scale: 1, rotationY: 8, duration: 1.25, ease: 'power3.out' }, 0);
+      tl.fromTo('.halo', { opacity: 0, scale: .72 }, { opacity: 1, scale: 1.04, duration: 1.5 }, 0);
+      tl.fromTo('.label, #caption, .micro', { opacity: 0, y: 15 }, { opacity: 1, y: 0, duration: .8, stagger: .12 }, .8);
+      tl.to('#brain-stage', { rotationY: -8, rotationX: 3, duration: 3.2, ease: 'sine.inOut' }, 1.25); tl.to('#brain-stage', { rotationY: 8, rotationX: -3, duration: 3.2, ease: 'sine.inOut' }, 4.45); tl.to('#brain-stage', { rotationY: 0, rotationX: 0, duration: .8, ease: 'power2.inOut' }, 7.65);
+      tl.to('.halo', { scale: 1.08, opacity: .66, duration: 2.2, yoyo: true, repeat: 1, ease: 'sine.inOut' }, 1.6); tl.to('#core', { opacity: .72, scale: 1.3, transformOrigin: 'center', duration: 1.1, yoyo: true, repeat: 4, ease: 'sine.inOut' }, 1.5); tl.to('.pulse', { opacity: .2, scale: .55, duration: .45, stagger: .7, repeat: 7, yoyo: true, ease: 'sine.inOut' }, 1.3); tl.to('.synapse-lines path', { strokeDashoffset: -120, duration: 3.8, repeat: 1, ease: 'none' }, 1.2); tl.fromTo('.grid', { rotationX: 63, y: 260 }, { rotationX: 63, x: -70, y: 295, duration: 10, ease: 'none' }, 0);
+      window.__timelines['main'] = tl;
+    </script>
+  </body>
+</html>
